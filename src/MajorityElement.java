@@ -3,6 +3,7 @@ public class MajorityElement {
         int [] a = {2,2,1,2,5,5,6,6,6,6,6,6,6,6};
         int ans = majorityEl(a, a.length);
         System.out.println(ans);
+        System.out.println(4%4);
     }
     public static int majorityEl(int[]a,int n){
         int majEl=0,count=0,count1=0;
